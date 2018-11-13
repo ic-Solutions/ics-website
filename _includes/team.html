@@ -1,0 +1,24 @@
+		<section id="team" class="team"><br>
+			<div class="container">
+				<div class="row">
+					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+						<h2>About Us</h2>
+						<div class="devider"><i class="fa fa-angle-down fa-md"></i></div><br>
+					</div>
+						{% for team in site.data.team %}
+						<!-- single member -->
+						<figure class="team-member col-md-4 col-sm-4 col-xs-12 text-left wow fadeInUp animated" data-wow-duration="500ms">
+							<div class="member-thumb">
+								<!-- <img src="img/team/anurag.jpeg" alt="Team Member" class="rounded img-responsive"> -->
+								<div class="member-image" style="background-image: url(/img/team/{{team.url}});"></div>
+								<figcaption class="overlay">
+									<h4>{{team.name}}</h4>
+									<span>{{team.post}}</span>
+								</figcaption>
+							</div>
+						</figure>
+						{% endfor %}
+					<!-- end single member -->
+				</div>
+			</div>
+		</section><br>

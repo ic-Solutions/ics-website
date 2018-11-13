@@ -1,0 +1,19 @@
+- animation-effect: bounceInUp
+  url: img_1.png
+  heading: Logo Designing
+  description: A logo has subtle or minor gradients to emphasize on content. Designers choose a few gradients only to make logo obvious to users. Our Company is available with well trained and experienced professionals for professional logo design.
+
+- animation-effect: bounceInDown
+  url: img_4.jpg
+  heading: Poster Design
+  description: All we see around us are posters on the streets. Some certainly do not even notice them anymore, while others might have developed an interest to learn what a poster is. A poster is a graphic marketing tool that allows passerby to obtain current information about a product or service of a company.
+
+- animation-effect: bounceInUp
+  url: img_3.jpg
+  heading: Video Editing
+  description: Video editing is the manipulation and arrangement of video shots. Video editing is used to structure and present all video information, including films and television shows, video advertisements and video essays.
+
+- animation-effect: bounceInDown
+  url: img_2.jpg
+  heading: Video Animation
+  description: A simulation of movement created by displaying a series of pictures, or frames. Whereas video takes continuous motion and breaks it up into discrete frames, animation starts with independent pictures and puts them together to form the illusion of continuous motion.

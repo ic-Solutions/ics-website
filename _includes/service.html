@@ -1,0 +1,27 @@
+        <section id="services" class="services"><br>
+		<div class="container">
+				<div class="row">				
+					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+					<h2>Services</h2>
+						<div class="devider"><i class="fa fa-angle-down fa-lg"></i></div>
+					</div>
+
+					<!-- service item -->
+			
+				<div class="row">
+					{% for service in site.data.service %}
+					<div class="col-md-6 text-center wow {{service.animation-effect}}" data-wow-duration="1500ms" data-wow-delay="500ms">
+						<div class="hvr-float-shadow">
+							<div class="service-desc">
+								<i class="fa {{service.icon}} fa-2x"></i>
+								<h3>{{service.heading}}</h3>
+								<p>{{service.description}}</p>
+								<a href="/services/#{{service.link}}"><button class="btn btn-secondary">Know More</button></a>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div><br>
+	</section>

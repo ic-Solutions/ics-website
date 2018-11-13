@@ -1,0 +1,33 @@
+		<!--
+        Some fun facts
+        ==================================== -->		
+		
+		<section id="facts" class="facts">
+			<div class="parallax-overlay">
+				<div class="container">
+					<div class="row number-counters">
+						
+						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+							<h2>Some Fun Facts</h2>
+							<div class="devider"><i class="fa fa-angle-down fa-lg"></i></div>
+						</div>
+						
+						{% for item in site.data.counter %}
+						<div class="col-md-4 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+							<div class="counters-item">
+								<i class="fa {{item.icon}} fa-3x"></i>
+								<strong data-to="{{item.number}}">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>{{item.description}}</p>
+							</div>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Some fun facts
+        ==================================== -->
+		

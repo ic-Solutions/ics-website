@@ -1,0 +1,24 @@
+- animation-effect: bounceInDown
+  url: img_1.jpg
+  heading: Web Design and Developement
+  description: We create a websites in responsive manner to reach our customer all kind of users. Responsive website design has convert more key as the volume of mobile and tablet traffic and now this versions for more than half of total internet traffics.
+
+- animation-effect: bounceInUp
+  url: img_2.jpg
+  heading: App Developement
+  description: Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones.
+
+- animation-effect: bounceInDown
+  url: img_3.jpg
+  heading: Customer Relationship Management (CRM)
+  description: Model for managing and monitoring an organizations interactions between all their customers. It uses technological tools to organize and synchronize the company’s sales, marketing, customer service, technical support, and the like.
+
+- animation-effect: bounceInUp
+  url: img_4.jpg
+  heading: Enterprise Resource Planning (ERP)
+  description: In one of a leading Indian industry association body via their 2012 survey for the Ready-to-Eat market have posted a very optimistic report and findings. Accordingly, the industry currently at US $ 15 billion is expected to climb double by 2015.
+
+# - animation-effect: bounceInDown
+#   url: img_5.jpg
+#   heading: Billing Software
+#   description: Software designed to handle time and billing tracking as well as invoicing customers for services and products. Billing software can track the hours worked by employees as well as expenses associated with projects or clients.

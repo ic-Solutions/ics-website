@@ -1,0 +1,19 @@
+- animation-effect: bounceInUp
+  url: img_1.jpg
+  heading: Email Marketing
+  description: Email marketing is the act of sending a commercial message, typically to a group of people, using email. In its broadest sense, every email sent to a potential or current customer could be considered email marketing.
+
+- animation-effect: bounceInDown
+  url: img_2.jpg
+  heading: SEO
+  description: Search engine optimization is the process of affecting the online visibility of a website or a web page in a web search engine's unpaid results—often referred to as "natural", "organic", or "earned" results.
+
+- animation-effect: bounceInUp
+  url: img_3.jpg
+  heading: Content Marketing
+  description: Content marketing is a strategic marketing approach focused on creating and distributing valuable, relevant, and consistent content to attract and retain a clearly defined audience & ultimately, to drive profitable customer action.
+
+- animation-effect: bounceInDown
+  url: img_4.jpeg
+  heading: Search Engine Marketing
+  description: Search engine marketing is a form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages primarily through paid advertising, to drive profitable customer action.

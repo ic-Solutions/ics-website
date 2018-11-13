@@ -1,0 +1,11 @@
+- number: 35
+  description: PROJECTS DELIVERED
+  icon: fa-rocket
+
+- number: 20
+  description: SATISFIED CLIENTS
+  icon: fa-users
+
+- number: 7
+  description: SERVICES IN CITIES
+  icon: fa-building

@@ -1,0 +1,87 @@
+---
+layout: default
+permalink: /services/
+--- 
+
+        <!--   	Development 	-->
+    <section id="development">
+		<div class="container-fluid development" align="center">
+        	<div class="sec-title mb20 text-center wow rubberBand animated" data-wow-duration="1000ms">
+        		<h2>Development</h2>
+        	</div>
+        	<div class="row">
+                {% for development in site.data.development %}
+        		<div class="col-md-6 wow service-item {{development.animation-effect}}" data-wow-duration="2000ms" data-wow-delay="500ms">
+        			<div class="image-rd" style="text-align:center;background-image: url(/img/development/{{development.url}})"></div>
+        			<h3>{{development.heading}}</h3>
+        			<p>{{development.description}}</p>
+        			<a href="/contact/#contact"><button class="btn btn-secondary">Request demo</button></a>
+        		</div>
+                {% endfor %}
+                <div class="col-md-6 col-md-offset-3 wow service-item bounceInDown" data-wow-duration="2000ms" data-wow-delay="500ms">
+                    <div class="image-rd" style="text-align:center;background-image: url(/img/development/img_5.jpg)"></div>
+                    <h3>Billing Software</h3>
+                    <p>Software designed to handle time and billing tracking as well as invoicing customers for services and products. Billing software can track the hours worked by employees as well as expenses associated with projects or clients.</p>
+                    <a href="/contact/#contact"><button class="btn btn-secondary">Request demo</button></a>
+                </div>
+            </div>
+		</div>
+    </section>
+
+        <!-- Digital Marketing Section  -->
+    <section id="digital-marketing">
+        <div class="container-fluid digital-marketing" align="center">
+	        <div class="sec-title mb20 text-center wow rubberBand animated" data-wow-duration="1000ms">
+	        	<h2>Digital Marketing</h2>
+	        </div>
+			<div class="row">
+                {% for digital in site.data.digital %}
+            		<div class="col-md-6 wow service-item {{digital.animation-effect}}" data-wow-duration="1000ms" data-wow-delay="500ms">
+                        <div class="image-rd" style="text-align:center;background-image: url(/img/digital-marketing/{{digital.url}})"></div>
+            			<h3>{{digital.heading}}</h3>
+            			<p>{{digital.description}}</p>
+            			<a href="/contact/#contact"><button class="btn btn-secondary">Request demo</button></a>
+            		</div>
+                {% endfor %}
+			</div>
+        </div>
+    </section>
+
+        <!-- Design Section -->
+
+    <section id="design">
+		<div class="container-fluid design" align="center">
+			<div class="sec-title mb20 text-center wow rubberBand animated" data-wow-duration="1000ms">
+				<h2>Design</h2>
+			</div>	
+			<div class="row">
+                {% for design in site.data.design %}
+    				<div class="col-md-6 wow service-item {{design.animation-effect}}" data-wow-duration="2000ms" data-wow-delay="500ms">
+                        <div class="image-rd" style="text-align:center;background-image: url(/img/design/{{design.url}})"></div>
+            			<h3>{{design.heading}}</h3>
+            			<p>{{design.description}}</p>
+            			<a href="/contact/#contact"><button class="btn btn-secondary">Request demo</button></a>
+            		</div>
+                {% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<!-- Testing  -->
+	<section id="testing">
+		<div class="container-fluid testing" align="center">
+			<div class="sec-title mb20 text-center wow rubberBand animated" data-wow-duration="1000ms">
+        		<h2>Testing and Automation</h2>
+        	</div>
+        	<div class="row" align="center">
+        		{% for testing in site.data.testing %}
+                <div class="col-md-6 wow service-item {{testing.animation-effect}}" data-wow-duration="2000ms" data-wow-delay="500ms">
+                    <div class="image-rd" style="text-align:center;background-image: url(/img/testing/{{testing.url}})"></div>
+        			<h3>{{testing.heading}}</h3>
+        			<p>{{testing.description}}</p>
+        			<a href="/contact/#contact"><button class="btn btn-secondary">Request demo</button></a>
+        		</div>
+                {% endfor %}
+        	</div>
+        </div>
+    </section>

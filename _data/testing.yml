@@ -1,0 +1,9 @@
+- animation-effect: bounceInUp
+  url: img_1.jpg
+  heading: Testing
+  description: Testing is the process of evaluating a system or its component(s) with the intent to find whether it satisfies the specified requirements or not. Testing is executing a system in order to identify any gaps, errors, or missing requirements in contrary to the actual requirements.
+
+- animation-effect: bounceInDown
+  url: img_2.jpg
+  heading: Automation
+  description: Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. Test automation is critical for continuous delivery and continuous testing.
